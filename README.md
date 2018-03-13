@@ -11,7 +11,7 @@ CSCE 470 Team project - Solr Search Engine
 
 ## Background
 
-This project's goal is to build a data crawler program to retrieve data from Steam website. These data will be kept in our form of a database, and will be used by another program to build a search engine. 
+As a continuation of Data Crawler project, the goal is to index of the crawled data into a search database. For this project, Solr will be used as the main building block and almost 90% will be done in Java.
 
 ## Installation Instructions
 
@@ -35,26 +35,20 @@ sudo su - solr -c "/opt/solr/bin/solr create -c gettingstarted -n data_driven_sc
 http://[YOUR_IP]/solr/
 ```
 
-#### Review Data Crawling
-First, all review urls from crawled products must be extracted and exported to a text file using split_review_url script in script folder. Once generated a url text file, we can then call scrapy to start crawling reviews data.
-```
-scrapy crawl reviews -o review.jl ...
-```
-
 ## Timeline
 
-* 02/05/2018 - Project Initiated
-* 02/18/2018 - Project Proposal Submitted
-* 02/18/2018 - Data Crawler Completed - Data Retrieved
+* 02/19/2018 - Project Initiated
+* 03/12/2018 - Indexing and overall setup
+* 03/13/2018 - Database building
+* 03/18/2018 - Field Test
 
 ## Built With
 
-* [Python 3.6](https://www.python.org/) - Python Development and Environment
+* [Solr 7.2.1](http://lucene.apache.org/solr/) - Search Engine Platform
 
 ## Acknowledgments
 
-* Big thanks to [ANDRE PERUNICIC](https://github.com/prncc/steam-scraper) for making the crawler available for reference. 
-* Scrapy Tool
+* [How To Forge](https://www.howtoforge.com/tutorial/how-to-install-and-configure-solr-on-ubuntu-1604/) Solr tutorial
 * Steam
 
 
