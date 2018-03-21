@@ -2582,3 +2582,51 @@ Caused by: org.apache.solr.common.SolrException: Invalid Date String:'Beta测试
 2018-03-21 11:24:42.445 INFO  (qtp205125520-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521630869120} status=0 QTime=0
 2018-03-21 11:24:42.454 INFO  (qtp205125520-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=7
 2018-03-21 11:24:52.747 INFO  (qtp205125520-17) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/select params={q=product_id:389280&_=1521630933198} hits=5386 status=0 QTime=2
+2018-03-21 11:39:16.794 INFO  (qtp205125520-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521630869120} status=0 QTime=0
+2018-03-21 11:39:16.801 INFO  (qtp205125520-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=7
+2018-03-21 11:39:16.815 INFO  (qtp205125520-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=6
+2018-03-21 11:43:13.963 INFO  (qtp205125520-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521630869120} status=0 QTime=0
+2018-03-21 11:43:13.978 INFO  (qtp205125520-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1521630869120} status=0 QTime=2
+2018-03-21 11:43:13.980 INFO  (qtp205125520-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=12
+2018-03-21 11:43:14.036 INFO  (qtp205125520-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521630869120} status=0 QTime=0
+2018-03-21 11:43:14.045 INFO  (qtp205125520-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=9
+2018-03-21 11:43:14.048 INFO  (qtp205125520-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1521630869120} status=0 QTime=2
+2018-03-21 11:43:18.680 INFO  (qtp205125520-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521630869120} status=0 QTime=0
+2018-03-21 11:43:18.691 INFO  (qtp205125520-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1521630869120} status=0 QTime=2
+2018-03-21 11:43:18.693 INFO  (qtp205125520-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=11
+2018-03-21 11:43:23.202 INFO  (qtp205125520-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521630869120} status=0 QTime=0
+2018-03-21 11:43:23.216 INFO  (qtp205125520-18) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1521630869220} status=0 QTime=0
+2018-03-21 11:43:23.225 INFO  (qtp205125520-18) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/replication params={wt=json&command=details&_=1521630869221} status=0 QTime=0
+2018-03-21 11:43:23.225 INFO  (qtp205125520-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=13
+2018-03-21 11:43:23.236 INFO  (qtp205125520-18) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1521630869121&ts=1521630869121} status=503 QTime=0
+2018-03-21 11:43:23.256 INFO  (qtp205125520-13) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/admin/system params={wt=json&_=1521630869220} status=0 QTime=25
+2018-03-21 11:43:27.709 INFO  (qtp205125520-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521630869120} status=0 QTime=0
+2018-03-21 11:43:27.717 INFO  (qtp205125520-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=7
+2018-03-21 11:43:39.746 INFO  (qtp205125520-15) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/select params={q=id:6210&_=1521630933198} hits=1 status=0 QTime=0
+2018-03-21 11:43:48.747 INFO  (qtp205125520-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521630869120} status=0 QTime=0
+2018-03-21 11:43:48.753 INFO  (qtp205125520-15) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1521630869220} status=0 QTime=0
+2018-03-21 11:43:48.759 INFO  (qtp205125520-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=7
+2018-03-21 11:43:48.767 INFO  (qtp205125520-15) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/replication params={wt=json&command=details&_=1521630869221} status=0 QTime=4
+2018-03-21 11:43:48.774 INFO  (qtp205125520-13) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1521630869121&ts=1521630869121} status=503 QTime=0
+2018-03-21 11:43:48.802 INFO  (qtp205125520-12) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/admin/system params={wt=json&_=1521630869220} status=0 QTime=33
+2018-03-21 11:43:51.720 INFO  (qtp205125520-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521630869120} status=0 QTime=0
+2018-03-21 11:43:51.728 INFO  (qtp205125520-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=5
+2018-03-21 11:44:01.691 INFO  (qtp205125520-16) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/select params={q=product_id:6210&_=1521630933198} hits=170 status=0 QTime=0
+2018-03-21 11:44:14.749 INFO  (qtp205125520-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521630869120} status=0 QTime=0
+2018-03-21 11:44:14.758 INFO  (qtp205125520-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=6
+2018-03-21 11:44:14.764 INFO  (qtp205125520-18) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1521630869220} status=0 QTime=0
+2018-03-21 11:44:14.788 INFO  (qtp205125520-19) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/replication params={wt=json&command=details&_=1521630869221} status=0 QTime=0
+2018-03-21 11:44:14.811 INFO  (qtp205125520-19) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1521630869121&ts=1521630869121} status=503 QTime=0
+2018-03-21 11:44:14.815 INFO  (qtp205125520-15) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/admin/system params={wt=json&_=1521630869220} status=0 QTime=8
+2018-03-21 11:44:18.028 INFO  (qtp205125520-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521630869120} status=0 QTime=0
+2018-03-21 11:44:18.041 INFO  (qtp205125520-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=6
+2018-03-21 11:44:31.029 INFO  (qtp205125520-17) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/select params={q=id:389280&_=1521630933198} hits=1 status=0 QTime=0
+2018-03-21 11:44:38.997 INFO  (qtp205125520-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521630869120} status=0 QTime=0
+2018-03-21 11:44:39.001 INFO  (qtp205125520-13) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1521630869220} status=0 QTime=0
+2018-03-21 11:44:39.005 INFO  (qtp205125520-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=7
+2018-03-21 11:44:39.010 INFO  (qtp205125520-16) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1521630869121&ts=1521630869121} status=503 QTime=0
+2018-03-21 11:44:39.012 INFO  (qtp205125520-13) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/replication params={wt=json&command=details&_=1521630869221} status=0 QTime=6
+2018-03-21 11:44:39.023 INFO  (qtp205125520-18) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/admin/system params={wt=json&_=1521630869220} status=0 QTime=16
+2018-03-21 11:44:42.140 INFO  (qtp205125520-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521630869120} status=0 QTime=0
+2018-03-21 11:44:42.151 INFO  (qtp205125520-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521630869121} status=0 QTime=7
+2018-03-21 11:44:56.038 INFO  (qtp205125520-12) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/select params={q=product_id:389280&_=1521630933198} hits=5386 status=0 QTime=0
