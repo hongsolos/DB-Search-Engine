@@ -1,0 +1,104 @@
+2018-03-21 11:56:29.780 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2018-03-21 11:56:30.293 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.2.1
+2018-03-21 11:56:30.294 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-03-21 11:56:30.294 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/hongichhan/Projects/CSCE 470/DB-Search-Engine/Solr
+2018-03-21 11:56:30.314 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-03-21T11:56:30.296Z
+2018-03-21 11:56:30.315 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2018-03-21 11:56:30.333 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/hongichhan/Projects/CSCE 470/DB-Search-Engine/Solr/server/solr
+2018-03-21 11:56:30.339 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/hongichhan/Projects/CSCE 470/DB-Search-Engine/Solr/server/solr/solr.xml
+2018-03-21 11:56:31.105 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 2 core definitions underneath /home/hongichhan/Projects/CSCE 470/DB-Search-Engine/Solr/server/solr
+2018-03-21 11:56:31.107 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [Games, Reviews]
+2018-03-21 11:56:31.114 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-03-21 11:56:31.191 INFO  (main) [   ] o.e.j.s.Server Started @1998ms
+2018-03-21 11:56:31.223 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.c.SolrResourceLoader [Games] Added 53 libs to classloader, from paths: [/home/hongichhan/Projects/CSCE%20470/DB-Search-Engine/Solr/contrib/clustering/lib, /home/hongichhan/Projects/CSCE%20470/DB-Search-Engine/Solr/contrib/extraction/lib, /home/hongichhan/Projects/CSCE%20470/DB-Search-Engine/Solr/contrib/langid/lib, /home/hongichhan/Projects/CSCE%20470/DB-Search-Engine/Solr/contrib/velocity/lib, /home/hongichhan/Projects/CSCE%20470/DB-Search-Engine/Solr/dist]
+2018-03-21 11:56:31.226 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.c.SolrResourceLoader [Reviews] Added 53 libs to classloader, from paths: [/home/hongichhan/Projects/CSCE%20470/DB-Search-Engine/Solr/contrib/clustering/lib, /home/hongichhan/Projects/CSCE%20470/DB-Search-Engine/Solr/contrib/extraction/lib, /home/hongichhan/Projects/CSCE%20470/DB-Search-Engine/Solr/contrib/langid/lib, /home/hongichhan/Projects/CSCE%20470/DB-Search-Engine/Solr/contrib/velocity/lib, /home/hongichhan/Projects/CSCE%20470/DB-Search-Engine/Solr/dist]
+2018-03-21 11:56:31.480 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
+2018-03-21 11:56:31.485 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.2.1
+2018-03-21 11:56:31.797 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.s.IndexSchema [Reviews] Schema name=default-config
+2018-03-21 11:56:31.816 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.s.IndexSchema [Games] Schema name=default-config
+2018-03-21 11:56:32.473 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-03-21 11:56:32.474 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-03-21 11:56:32.519 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.c.CoreContainer Creating SolrCore 'Games' using configuration from instancedir /home/hongichhan/Projects/CSCE 470/DB-Search-Engine/Solr/server/solr/Games, trusted=true
+2018-03-21 11:56:32.523 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.c.CoreContainer Creating SolrCore 'Reviews' using configuration from instancedir /home/hongichhan/Projects/CSCE 470/DB-Search-Engine/Solr/server/solr/Reviews, trusted=true
+2018-03-21 11:56:32.562 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-03-21 11:56:32.562 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-03-21 11:56:32.568 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.c.SolrCore [[Reviews] ] Opening new SolrCore at [/home/hongichhan/Projects/CSCE 470/DB-Search-Engine/Solr/server/solr/Reviews], dataDir=[/home/hongichhan/Projects/CSCE 470/DB-Search-Engine/Solr/server/solr/Reviews/data/]
+2018-03-21 11:56:32.568 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.c.SolrCore [[Games] ] Opening new SolrCore at [/home/hongichhan/Projects/CSCE 470/DB-Search-Engine/Solr/server/solr/Games], dataDir=[/home/hongichhan/Projects/CSCE 470/DB-Search-Engine/Solr/server/solr/Games/data/]
+2018-03-21 11:56:32.618 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-03-21 11:56:32.618 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-03-21 11:56:33.159 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-03-21 11:56:33.159 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-03-21 11:56:33.161 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-03-21 11:56:33.162 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-03-21 11:56:33.192 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-03-21 11:56:33.192 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-03-21 11:56:33.193 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-03-21 11:56:33.194 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-03-21 11:56:33.427 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.s.SolrIndexSearcher Opening [Searcher@15c9fb87[Games] main]
+2018-03-21 11:56:33.447 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/hongichhan/Projects/CSCE 470/DB-Search-Engine/Solr/server/solr/Games/conf
+2018-03-21 11:56:33.476 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-03-21 11:56:33.484 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-03-21 11:56:33.503 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.s.SolrIndexSearcher Opening [Searcher@6c47adaf[Reviews] main]
+2018-03-21 11:56:33.505 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/hongichhan/Projects/CSCE 470/DB-Search-Engine/Solr/server/solr/Reviews/conf
+2018-03-21 11:56:33.510 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-03-21 11:56:33.513 INFO  (coreLoadExecutor-6-thread-1) [   x:Games] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-03-21 11:56:33.518 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-03-21 11:56:33.535 INFO  (coreLoadExecutor-6-thread-2) [   x:Reviews] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-03-21 11:56:33.604 INFO  (searcherExecutor-7-thread-1-processing-x:Reviews) [   x:Reviews] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6c47adaf[Reviews] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.2.1):C50787) Uninverting(_1(7.2.1):C5503) Uninverting(_o(7.2.1):C26398) Uninverting(_j(7.2.1):C5192) Uninverting(_n(7.2.1):C3278) Uninverting(_p(7.2.1):C4657) Uninverting(_q(7.2.1):C5568) Uninverting(_r(7.2.1):C5281) Uninverting(_s(7.2.1):C5545) Uninverting(_t(7.2.1):C5806) Uninverting(_u(7.2.1):C4876) Uninverting(_v(7.2.1):C2471)))}
+2018-03-21 11:56:33.604 INFO  (searcherExecutor-7-thread-1-processing-x:Reviews) [   x:Reviews] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-03-21 11:56:33.604 INFO  (searcherExecutor-7-thread-1-processing-x:Reviews) [   x:Reviews] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-03-21 11:56:33.610 INFO  (searcherExecutor-8-thread-1-processing-x:Games) [   x:Games] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@15c9fb87[Games] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_7(7.2.1):C31224)))}
+2018-03-21 11:56:33.610 INFO  (searcherExecutor-8-thread-1-processing-x:Games) [   x:Games] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-03-21 11:56:33.610 INFO  (searcherExecutor-8-thread-1-processing-x:Games) [   x:Games] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-03-21 11:56:33.611 INFO  (searcherExecutor-7-thread-1-processing-x:Reviews) [   x:Reviews] o.a.s.c.SolrCore [Reviews] Registered new searcher Searcher@6c47adaf[Reviews] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(7.2.1):C50787) Uninverting(_1(7.2.1):C5503) Uninverting(_o(7.2.1):C26398) Uninverting(_j(7.2.1):C5192) Uninverting(_n(7.2.1):C3278) Uninverting(_p(7.2.1):C4657) Uninverting(_q(7.2.1):C5568) Uninverting(_r(7.2.1):C5281) Uninverting(_s(7.2.1):C5545) Uninverting(_t(7.2.1):C5806) Uninverting(_u(7.2.1):C4876) Uninverting(_v(7.2.1):C2471)))}
+2018-03-21 11:56:33.612 INFO  (searcherExecutor-8-thread-1-processing-x:Games) [   x:Games] o.a.s.c.SolrCore [Games] Registered new searcher Searcher@15c9fb87[Games] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_7(7.2.1):C31224)))}
+2018-03-21 11:56:38.941 INFO  (qtp205125520-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521633398675} status=0 QTime=11
+2018-03-21 11:56:38.961 INFO  (qtp205125520-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521633398676} status=0 QTime=32
+2018-03-21 11:57:27.996 INFO  (qtp205125520-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521633398675} status=0 QTime=0
+2018-03-21 11:57:28.027 INFO  (qtp205125520-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1521633398675} status=0 QTime=20
+2018-03-21 11:57:28.033 INFO  (qtp205125520-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521633398676} status=0 QTime=29
+2018-03-21 11:57:28.092 INFO  (qtp205125520-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521633398675} status=0 QTime=0
+2018-03-21 11:57:28.112 INFO  (qtp205125520-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521633398676} status=0 QTime=12
+2018-03-21 11:57:28.113 INFO  (qtp205125520-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1521633398675} status=0 QTime=4
+2018-03-21 11:57:32.093 INFO  (qtp205125520-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521633398675} status=0 QTime=0
+2018-03-21 11:57:32.106 INFO  (qtp205125520-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521633398676} status=0 QTime=12
+2018-03-21 11:57:32.113 INFO  (qtp205125520-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1521633398675} status=0 QTime=4
+2018-03-21 11:57:36.898 INFO  (qtp205125520-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521633398675} status=0 QTime=0
+2018-03-21 11:57:36.910 INFO  (qtp205125520-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521633398676} status=0 QTime=7
+2018-03-21 11:57:36.921 INFO  (qtp205125520-17) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1521633456882} status=0 QTime=3
+2018-03-21 11:57:36.933 INFO  (qtp205125520-17) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/replication params={wt=json&command=details&_=1521633456882} status=0 QTime=1
+2018-03-21 11:57:36.947 INFO  (qtp205125520-13) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1521633398676&ts=1521633398676} status=503 QTime=4
+2018-03-21 11:57:36.961 INFO  (qtp205125520-16) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/admin/system params={wt=json&_=1521633456882} status=0 QTime=25
+2018-03-21 11:57:39.704 INFO  (qtp205125520-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521633398675} status=0 QTime=0
+2018-03-21 11:57:39.714 INFO  (qtp205125520-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521633398676} status=0 QTime=8
+2018-03-21 11:57:49.254 INFO  (qtp205125520-20) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/select params={q=id:6210&_=1521633459653} hits=1 status=0 QTime=53
+2018-03-21 11:57:58.638 INFO  (qtp205125520-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521633398675} status=0 QTime=0
+2018-03-21 11:57:58.648 INFO  (qtp205125520-13) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1521633456882} status=0 QTime=0
+2018-03-21 11:57:58.674 INFO  (qtp205125520-12) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/replication params={wt=json&command=details&_=1521633456882} status=0 QTime=4
+2018-03-21 11:57:58.692 INFO  (qtp205125520-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521633398676} status=0 QTime=52
+2018-03-21 11:57:58.702 INFO  (qtp205125520-19) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1521633398676&ts=1521633398676} status=503 QTime=0
+2018-03-21 11:57:58.706 INFO  (qtp205125520-16) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/admin/system params={wt=json&_=1521633456882} status=0 QTime=30
+2018-03-21 11:58:01.086 INFO  (qtp205125520-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521633398675} status=0 QTime=0
+2018-03-21 11:58:01.095 INFO  (qtp205125520-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521633398676} status=0 QTime=7
+2018-03-21 11:58:09.492 INFO  (qtp205125520-20) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/select params={q=product_id:6210&_=1521633459653} hits=170 status=0 QTime=22
+2018-03-21 11:58:22.283 INFO  (qtp205125520-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521633398675} status=0 QTime=0
+2018-03-21 11:58:22.292 INFO  (qtp205125520-17) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1521633456882} status=0 QTime=0
+2018-03-21 11:58:22.298 INFO  (qtp205125520-17) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/replication params={wt=json&command=details&_=1521633456882} status=0 QTime=1
+2018-03-21 11:58:22.304 INFO  (qtp205125520-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521633398676} status=0 QTime=14
+2018-03-21 11:58:22.318 INFO  (qtp205125520-16) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1521633398676&ts=1521633398676} status=503 QTime=0
+2018-03-21 11:58:22.331 INFO  (qtp205125520-14) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/admin/system params={wt=json&_=1521633456882} status=0 QTime=20
+2018-03-21 11:58:24.830 INFO  (qtp205125520-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521633398675} status=0 QTime=0
+2018-03-21 11:58:24.837 INFO  (qtp205125520-21) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/replication params={wt=json&command=details&_=1521633456882} status=0 QTime=0
+2018-03-21 11:58:24.849 INFO  (qtp205125520-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521633398676} status=0 QTime=15
+2018-03-21 11:58:25.684 INFO  (qtp205125520-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521633398675} status=0 QTime=0
+2018-03-21 11:58:25.697 INFO  (qtp205125520-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521633398676} status=0 QTime=9
+2018-03-21 11:58:39.765 INFO  (qtp205125520-16) [   x:Games] o.a.s.c.S.Request [Games]  webapp=/solr path=/select params={q=id:389280&_=1521633459653} hits=1 status=0 QTime=1
+2018-03-21 11:58:46.748 INFO  (qtp205125520-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521633398675} status=0 QTime=0
+2018-03-21 11:58:46.755 INFO  (qtp205125520-17) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1521633456882} status=0 QTime=0
+2018-03-21 11:58:46.764 INFO  (qtp205125520-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521633398676} status=0 QTime=10
+2018-03-21 11:58:46.776 INFO  (qtp205125520-17) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/replication params={wt=json&command=details&_=1521633456882} status=0 QTime=4
+2018-03-21 11:58:46.783 INFO  (qtp205125520-20) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1521633398676&ts=1521633398676} status=503 QTime=0
+2018-03-21 11:58:46.816 INFO  (qtp205125520-13) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/admin/system params={wt=json&_=1521633456882} status=0 QTime=33
+2018-03-21 11:58:48.977 INFO  (qtp205125520-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1521633398675} status=0 QTime=0
+2018-03-21 11:58:48.990 INFO  (qtp205125520-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1521633398676} status=0 QTime=7
+2018-03-21 11:58:58.534 INFO  (qtp205125520-14) [   x:Reviews] o.a.s.c.S.Request [Reviews]  webapp=/solr path=/select params={q=product_id:389280&_=1521633459653} hits=5386 status=0 QTime=12
