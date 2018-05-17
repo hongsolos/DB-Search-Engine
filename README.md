@@ -41,6 +41,7 @@ http://[YOUR_IP]/solr/
 * 03/12/2018 - Indexing and overall setup
 * 03/13/2018 - Database building
 * 03/18/2018 - Field Test
+* 04/20/2018 - Project Completed
 
 ## Built With
 
